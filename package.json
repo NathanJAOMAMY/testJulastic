@@ -4,8 +4,8 @@
   "description": "Sample Node.js app for Jelastic Cloud Infomaniak",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon src/app.js",
-    "start": "node src/app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.53.0",
