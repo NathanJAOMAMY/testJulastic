@@ -18,7 +18,7 @@ app.get("/user", async (req, res) => {
   }
 });
 app.post("/user", (req, res) => {
-  res.send(req.body);
+  res.status(200).json("User");
 });
 app.get("/", (req, res) => {
   res.send("Hello from Node.js on Jelastic Cloud Infomaniak!");
